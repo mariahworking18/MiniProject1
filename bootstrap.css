@@ -37,9 +37,7 @@ h1 {
         font-size: 65px;
 
     }
-    main {
-        margin: 100px;
-    }
+  
     .container-wrapper{
         padding-top: 30px;
         padding-bottom: 30px;
@@ -47,7 +45,7 @@ h1 {
         padding-right: 50px;
 
     }
-    
+
   }
 
 .navbar {
@@ -75,6 +73,11 @@ h1 {
 }
 main {
     margin: 30px;
+}
+@media(min-width:992px) {
+main {
+    margin: 100px;
+}
 }
 .aboutme{
  
